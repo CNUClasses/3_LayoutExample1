@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/res/merged/debug/menu/activity_linear.xml",
+        "source": "/home/keith/CPSC475_examples/3_LayoutExample1/app/src/main/res/menu/activity_linear.xml"
+    },
+    {
+        "merged": "/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/res/merged/debug/menu/activity_layout.xml",
+        "source": "/home/keith/CPSC475_examples/3_LayoutExample1/app/src/main/res/menu/activity_layout.xml"
+    },
+    {
+        "merged": "/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/res/merged/debug/menu/grid_layout.xml",
+        "source": "/home/keith/CPSC475_examples/3_LayoutExample1/app/src/main/res/menu/grid_layout.xml"
+    },
+    {
+        "merged": "/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/res/merged/debug/menu/activity_table.xml",
+        "source": "/home/keith/CPSC475_examples/3_LayoutExample1/app/src/main/res/menu/activity_table.xml"
+    },
+    {
+        "merged": "/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/res/merged/debug/menu/activity_relative.xml",
+        "source": "/home/keith/CPSC475_examples/3_LayoutExample1/app/src/main/res/menu/activity_relative.xml"
+    }
+]

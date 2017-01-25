@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearActivity" >
+
+    <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/layoutweight"/>
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:background="@color/color_1">
+        <Button android:text="Weight1" 
+            	android:layout_weight="1"
+            	android:gravity="center"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"/>
+
+        <Button android:text="Weight2" 
+           		android:layout_weight="2"
+                 android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:background="@color/color_6">
+        <Button android:text="NO Weight" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"/>
+
+        <Button android:text="Weight1(all the rest)" 
+           		android:layout_weight="1"
+                 android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="android:gravity-places text INSIDE the widget"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+        android:background="@color/color_4">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Left" />
+		<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="center" />
+  		<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="right" />   
+    </LinearLayout>  
+     
+        <TextView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/layoutgravity"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/color_2"
+        android:orientation="vertical" >
+ 		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Left" />
+ 		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="center" />
+  		<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="right" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>

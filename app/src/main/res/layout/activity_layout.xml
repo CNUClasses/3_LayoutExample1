@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LayoutActivity" >
+
+    <Button
+        android:layout_weight="25"
+        android:id="@+id/buttonLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doLinear"
+        android:text="Linear" />
+
+    <Button
+        android:id="@+id/buttonAll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:onClick="doWeightGravity"
+        android:text="Lots of Linear Layouts" />
+
+    <Button
+        android:layout_weight="25"
+        android:id="@+id/buttonRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doRelative"
+        android:text="Relative" />
+    <Button
+        android:layout_weight="25"
+        android:id="@+id/buttonFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doFrame"
+        android:text="Frame" />
+
+    <Button
+        android:id="@+id/buttonTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:onClick="doTable"
+        android:text="Table" />
+
+    <Button
+        android:id="@+id/buttonGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:onClick="doGridLayout"
+        android:text="GridLayout" />
+
+</LinearLayout>

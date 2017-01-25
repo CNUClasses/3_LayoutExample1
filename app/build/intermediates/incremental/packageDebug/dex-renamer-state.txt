@@ -1,0 +1,7 @@
+#Wed Jan 25 17:06:20 EST 2017
+base.0=/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_350a001a10c06b2a90170f28fd816249af8bcf6b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30ebc7a021945ef821ccb0c6ab6de52b5762fbe9/classes.dex
+base.1=/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30ebc7a021945ef821ccb0c6ab6de52b5762fbe9
+file.0=/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_350a001a10c06b2a90170f28fd816249af8bcf6b/classes.dex
