@@ -5,28 +5,30 @@
     tools:context=".RelativeActivity">
 
     <Button
-        android:id="@+id/leftButton"
+        android:id="@+id/CenterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Left" />
-
-    <Button
-        android:id="@+id/MidButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mid"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="Center" />
 
     <Button
-        android:id="@+id/RightButton"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/CenterButton"
+        android:layout_toEndOf="@+id/CenterButton"
+        android:layout_toRightOf="@+id/CenterButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/bottom_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CenterButton"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/MidButton"
-        android:text="Bot" />
+        android:layout_alignStart="@+id/CenterButton"
+        android:text="Bottom_Button" />
 
 
 </RelativeLayout>

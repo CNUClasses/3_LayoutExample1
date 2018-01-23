@@ -6,7 +6,7 @@
     tools:context=".LayoutActivity" >
 
     <Button
-        android:layout_weight="25"
+        android:layout_weight="100"
         android:id="@+id/buttonLinear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
