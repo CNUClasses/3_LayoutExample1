@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2881665e729f186bdba670ec23e0b62f551bd904">
+        sha1="50c15068242ac0bd8ec49934e13d78a4de0f72bb">
         <dex dex="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_350a001a10c06b2a90170f28fd816249af8bcf6b/classes.dex" />
     </item>
     <item
@@ -93,21 +93,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3bdce8ddf807672cc7662b06b79c36ddd664c16c">
-        <dex dex="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30ebc7a021945ef821ccb0c6ab6de52b5762fbe9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_aa7bf67c99cf8dbd68279f75e731fbfb7ed6638c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d58e5e7af86c0b03f15aa5fd605e588dcd1f34ab">
+        <dex dex="/home/keith/CPSC475_examples/3_LayoutExample1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_30ebc7a021945ef821ccb0c6ab6de52b5762fbe9/classes.dex" />
     </item>
 
 </items>

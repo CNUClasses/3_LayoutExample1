@@ -14,6 +14,7 @@ public class FrameLayoutActivity extends Activity {
 
     private boolean isGreen = false;
     private int Id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +31,9 @@ public class FrameLayoutActivity extends Activity {
     }
 
     public void doButton(View view) {
-        FrameLayout ml = (FrameLayout)findViewById(R.id.FL);
+        FrameLayout ml = (FrameLayout) findViewById(R.id.FL);
 
-       //how to get something from the drawable folder
+        //how to get something from the drawable folder
 
         if (isGreen)
             ml.setBackgroundResource(Id);
