@@ -14,13 +14,12 @@ public class FrameLayoutActivity extends Activity {
 
     private boolean isGreen = false;
     private int Id;
+    FrameLayout ml;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_framelayout);
-        Resources resources = this.getApplicationContext().getResources();
-        Id = resources.getIdentifier("ic_launcher", "drawable", getPackageName());
     }
 
     @Override
@@ -31,9 +30,12 @@ public class FrameLayoutActivity extends Activity {
     }
 
     public void doButton(View view) {
-        FrameLayout ml = (FrameLayout) findViewById(R.id.FL);
 
-        //how to get something from the drawable folder
+        if(ml == null) {
+            ml = (FrameLayout) findViewById(R.id.FL);
+            Resources resources = this.getApplicationContext().getResources();
+            Id = resources.getIdentifier("ic_launcher", "drawable", getPackageName());
+        }
 
         if (isGreen)
             ml.setBackgroundResource(Id);

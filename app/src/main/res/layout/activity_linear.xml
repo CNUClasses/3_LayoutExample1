@@ -15,20 +15,21 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:background="#ffff180a">
+        android:background="#ffff0000">
         <Button android:text="These"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-        />
-        <Button android:text="Buttons"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <Button android:text="Are"
             android:layout_gravity="center"
 
+            android:layout_height="wrap_content"/>
+        <Button android:text="Buttons"
+             android:layout_width="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_height="wrap_content"/>
+        <Button android:text="Are"
             android:layout_width="wrap_content"
+            android:layout_gravity="center"
+
             android:layout_height="wrap_content"></Button>
         <Button android:text="Centered"
             android:layout_gravity="center"
@@ -41,10 +42,9 @@
         android:layout_height="wrap_content" 
         android:text="Horizontal Linear Layout"/>
     <LinearLayout
-        android:orientation ="horizontal"
-        android:layout_width="match_parent" 
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" 
-        android:gravity="left"
+        android:gravity="center"
         android:background="#77ee0bff">
         <Button android:text="These" 
                 android:layout_width="wrap_content" 
@@ -58,6 +58,8 @@
         <Button android:text="Aligned" 
                 android:layout_width="wrap_content" 
                 android:layout_height="wrap_content"/>
-    </LinearLayout>        
-  
-</LinearLayout>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
