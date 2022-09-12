@@ -33,8 +33,9 @@ public class FrameLayoutActivity extends Activity {
 
         if(ml == null) {
             ml = (FrameLayout) findViewById(R.id.FL);
-            Resources resources = this.getApplicationContext().getResources();
-            Id = resources.getIdentifier("ic_launcher", "drawable", getPackageName());
+            Id=R.drawable.ic_launcher;
+//            Resources resources = this.getApplicationContext().getResources();
+//            Id = resources.getIdentifier("ic_launcher", "drawable", getPackageName());
         }
 
         if (isGreen)
