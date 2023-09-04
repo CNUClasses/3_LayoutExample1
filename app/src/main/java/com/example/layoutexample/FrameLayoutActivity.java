@@ -11,7 +11,6 @@ import android.widget.FrameLayout;
  * Created by Perkins on 1/20/2015.
  */
 public class FrameLayoutActivity extends Activity {
-
     private boolean isGreen = false;
     private int Id;
     FrameLayout ml;
@@ -30,7 +29,6 @@ public class FrameLayoutActivity extends Activity {
     }
 
     public void doButton(View view) {
-
         if(ml == null) {
             ml = (FrameLayout) findViewById(R.id.FL);
             Id=R.drawable.ic_launcher;

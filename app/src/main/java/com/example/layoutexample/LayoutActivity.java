@@ -22,7 +22,7 @@ public class LayoutActivity extends Activity {
     }
 
 	public void doLinear(View v) {
-		Intent i = new Intent(getBaseContext(), LinearActivity.class);
+		Intent i = new Intent(this, LinearActivity.class);
 		startActivity(i);
 	}
 

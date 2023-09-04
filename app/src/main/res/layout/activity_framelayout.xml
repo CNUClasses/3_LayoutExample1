@@ -7,11 +7,11 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="120dp"
         android:text="@string/newtext"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal|bottom"
-        android:background="#33161616" />
+        android:background="#33262626" />
 
     <Button
         android:layout_width="wrap_content"
@@ -20,4 +20,5 @@
         android:onClick="doButton"
         android:id="@+id/button"
         android:layout_gravity="right|bottom" />
+
 </FrameLayout>
