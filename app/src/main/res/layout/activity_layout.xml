@@ -23,13 +23,6 @@
 
     <Button
         android:layout_weight="25"
-        android:id="@+id/buttonRelative"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="doRelative"
-        android:text="Relative- DO NOT USE FOR NEW PROJECTS!\nUse Constraint Layout instead" />
-    <Button
-        android:layout_weight="25"
         android:id="@+id/buttonFrame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

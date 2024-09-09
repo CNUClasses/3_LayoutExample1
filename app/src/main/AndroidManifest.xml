@@ -29,9 +29,6 @@
             android:name=".LinearActivity"
             android:label="@string/title_activity_linear"></activity>
         <activity
-            android:name=".RelativeActivity"
-            android:label="@string/title_activity_relative"></activity>
-        <activity
             android:name=".GridLayoutActivity"
             android:label="@string/title_activity_grid_layout"></activity>
     </application>

@@ -26,11 +26,6 @@ public class LayoutActivity extends Activity {
 		startActivity(i);
 	}
 
-	public void doRelative(View v) {
-		Intent i = new Intent(getBaseContext(), RelativeActivity.class);
-		startActivity(i);
-	}
-
 	public void doTable(View v) {
 		Intent i = new Intent(getBaseContext(), TableActivity.class);
 		startActivity(i);
